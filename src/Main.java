@@ -12,8 +12,8 @@ public class Main {
         for (Map.Entry<String, Integer> entry : nameAge.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
-        for (String keys : nameAge.keySet()) {
-            System.out.println(keys);
+        for (String s : nameAge.keySet()) {
+            System.out.println(s);
         }
         for (Integer value : nameAge.values()) {
             System.out.println(value);
