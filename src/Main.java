@@ -7,5 +7,7 @@ public class Main {
     nameAge.put("Алиса", 31);
     nameAge.put("Вася", 12);
     nameAge.put("Петя", 44);
+
+        System.out.println(nameAge.get("Вася"));
     }
 }
