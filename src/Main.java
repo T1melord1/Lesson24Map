@@ -8,6 +8,15 @@ public class Main {
     nameAge.put("Вася", 12);
     nameAge.put("Петя", 44);
 
-        System.out.println(nameAge.get("Вася"));
+
+        for (Map.Entry<String, Integer> entry : nameAge.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+        for (String s : nameAge.keySet()) {
+            System.out.println(s);
+        }
+        for (Integer value : nameAge.values()) {
+            System.out.println(value);
+        }
     }
 }
